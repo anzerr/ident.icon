@@ -1,0 +1,34 @@
+{
+	"name": "ident.icon",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\""
+	},
+	"keywords": [],
+	"author": "anzerr",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
+	},
+	"eslintConfig": {
+		"extends": "eslint-config-basic"
+	},
+	"dependencies": {
+		"color.util": "git+https://github.com/anzerr/color.util.git",
+		"type.util": "git+https://github.com/anzerr/type.util.git"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/anzerr/ident.icon.git"
+	},
+	"engines": {
+		"node": ">= 0.10.0"
+	},
+	"types": "index.d.ts",
+	"bugs": {
+		"url": "https://github.com///github.com/anzerr/ident.icon/issues"
+	},
+	"homepage": "https://github.com///github.com/anzerr/ident.icon#readme"
+}

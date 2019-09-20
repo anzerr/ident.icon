@@ -4,6 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"linter": "eslint src/**",
 		"test": "echo \"Error: no test specified\""
 	},
 	"keywords": [],

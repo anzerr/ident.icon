@@ -9,7 +9,7 @@ generate github styled identicon in svg format for a given hash.
 #### `Install`
 ``` bash
 npm install --save git+https://git@github.com/anzerr/ident.icon.git
-npm install --save @anzerr/net.socket
+npm install --save @anzerr/ident.icon
 ```
 
 ### `Example`

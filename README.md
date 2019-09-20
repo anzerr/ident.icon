@@ -17,5 +17,5 @@ npm install --save @anzerr/net.socket
 const Identicon = require('ident.icon'),
 	fs = require('fs');
 
-fs.writeFileSync('example.svg', new Identicon('4p545hcpzgzkbb46u9rfhqsimgnu6sjb1ao47d5ywj63o31ru9cf5msb1tg', 420).toString(true));
+fs.writeFileSync('example.svg', new Identicon('4p545hcpzgzkbb46u9rfhqsimgnu6sjb').toString(true));
 ```

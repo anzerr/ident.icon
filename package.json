@@ -22,14 +22,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/anzerr/ident.icon.git"
+		"url": "git@github.com:anzerr/ident.icon.git"
 	},
 	"engines": {
 		"node": ">= 0.10.0"
 	},
 	"types": "index.d.ts",
 	"bugs": {
-		"url": "https://github.com///github.com/anzerr/ident.icon/issues"
+		"url": "https://github.com/anzerr/ident.icon/issues"
 	},
-	"homepage": "https://github.com///github.com/anzerr/ident.icon#readme"
+	"homepage": "https://github.com/anzerr/ident.icon#readme"
 }

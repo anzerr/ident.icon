@@ -4,14 +4,16 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"linter": "eslint src/**",
-		"test": "echo \"Error: no test specified\""
+		"linter": "eslint index.js",
+		"test": "npm run linter && node test.js"
 	},
 	"keywords": [],
 	"author": "anzerr",
 	"license": "MIT",
 	"devDependencies": {
-		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git",
+		"fs.promisify": "git+https://git@github.com/anzerr/fs.promisify.git",
+		"fs.hash": "git+https://github.com/anzerr/fs.hash.git"
 	},
 	"eslintConfig": {
 		"extends": "eslint-config-basic"

@@ -61,3 +61,4 @@ class Identicon {
 }
 
 module.exports = Identicon;
+module.exports.default = Identicon;

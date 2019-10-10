@@ -14,8 +14,9 @@ npm install --save @anzerr/ident.icon
 
 ### `Example`
 ``` javascript
+An online can be found [here](https://anzerr.github.io/demo/#totp)
 const Identicon = require('ident.icon'),
 	fs = require('fs');
 
-fs.writeFileSync('example.svg', new Identicon('4p545hcpzgzkbb46u9rfhqsimgnu6sjb').toString(true));
+fs.writeFileSync('example.svg', new Identicon('e3d7bb56cd6a33ed').toString(true));
 ```

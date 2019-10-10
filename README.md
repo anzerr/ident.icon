@@ -13,7 +13,7 @@ npm install --save @anzerr/ident.icon
 ```
 
 ### `Example`
-An online can be found [here](https://anzerr.github.io/demo/#totp)
+An online can be found [here](https://anzerr.github.io/demo/#ident)
 ``` javascript
 const Identicon = require('ident.icon'),
 	fs = require('fs');

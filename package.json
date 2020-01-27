@@ -1,19 +1,29 @@
 {
 	"name": "ident.icon",
 	"version": "1.0.5",
-	"description": "",
+	"description": "github style identicon util",
+	"keywords": [
+		"icon",
+		"identicon",
+		"nodejs",
+		"svg",
+		"util"
+	],
+	"homepage": "https://github.com/anzerr/ident.icon#readme",
+	"bugs": {
+		"url": "https://github.com/anzerr/ident.icon/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:anzerr/ident.icon.git"
+	},
+	"license": "MIT",
+	"author": "anzerr",
 	"main": "index.js",
+	"types": "index.d.ts",
 	"scripts": {
 		"linter": "eslint index.js",
 		"test": "node test.js"
-	},
-	"keywords": [],
-	"author": "anzerr",
-	"license": "MIT",
-	"devDependencies": {
-		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git",
-		"fs.promisify": "git+https://git@github.com/anzerr/fs.promisify.git",
-		"fs.hash": "git+https://github.com/anzerr/fs.hash.git"
 	},
 	"eslintConfig": {
 		"extends": "eslint-config-basic"
@@ -22,16 +32,12 @@
 		"color.util": "git+https://github.com/anzerr/color.util.git",
 		"type.util": "git+https://github.com/anzerr/type.util.git"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:anzerr/ident.icon.git"
+	"devDependencies": {
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git",
+		"fs.promisify": "git+https://git@github.com/anzerr/fs.promisify.git",
+		"fs.hash": "git+https://github.com/anzerr/fs.hash.git"
 	},
 	"engines": {
 		"node": ">= 0.10.0"
-	},
-	"types": "index.d.ts",
-	"bugs": {
-		"url": "https://github.com/anzerr/ident.icon/issues"
-	},
-	"homepage": "https://github.com/anzerr/ident.icon#readme"
+	}
 }

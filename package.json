@@ -33,6 +33,7 @@
 		"type.util": "git+https://github.com/anzerr/type.util.git"
 	},
 	"devDependencies": {
+		"eslint": "^6.8.0",
 		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git",
 		"fs.promisify": "git+https://git@github.com/anzerr/fs.promisify.git",
 		"fs.hash": "git+https://github.com/anzerr/fs.hash.git"
